@@ -1,0 +1,19 @@
+// .babelrc
+{
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": "commonjs"
+          }
+        ],
+        "next/babel"
+      ]
+    },
+    "development": {
+      "presets": ["next/babel"]
+    }
+  }
+}
