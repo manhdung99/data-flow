@@ -5,7 +5,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next",
-    "test": "NODE_ENV=test jest",
     "heroku-postbuild": "next build",
     "server": "next start"
   },
